@@ -1,0 +1,18 @@
+<header>
+
+<div class="logo">{{#if @blog.logo}}<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}</div>
+	
+<h1 class="title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+	
+<p>{{@blog.description}}</p>
+
+<nav>
+<ul>
+<li><a href="/">Home</a>
+<li><a href="{{@blog.url}}/about">About</a></li>
+<li><a href="{{@blog.url}}/projects">Projects</a></li>
+</ul>
+</nav>
+
+
+</header>

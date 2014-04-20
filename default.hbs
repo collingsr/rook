@@ -37,11 +37,17 @@
 
 	<body class="{{body_class}}">
 
-		{{{body}}}
+		{{> header}}
+		
+		<div class="main">
+			{{{body}}}
+		</div>
 
+		{{> footer}}
+		
 		{{ghost_foot}}
 
-
+		
 	</body>
 
 </html>
