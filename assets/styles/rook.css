@@ -108,12 +108,12 @@ section .post-excerpt {
 	padding-left: 2em;
 }
 
-section .post-tags {
+.post-tags {
 	float: right;
 	text-align: right;
 }
 
-section .post-tags a {
+.post-tags a {
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #F03838;
@@ -128,20 +128,6 @@ section .post-tags a {
 article .post-date {
 	color:#888;
 	margin-top: 2em;     
-}
-
-article .post-tags {
-	float: right;
-	text-align: right;
-}
-
-article .post-tags a {
-	text-transform: uppercase;
-	background-color: #fff;
-	border-color: #fff;
-	padding: 3px 5px;
-	line-height: 1.33;
-	border-radius: 6px;
 }
 
 h1 .post-title {
